@@ -1,0 +1,17 @@
+[package]
+name = "y2024"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "y2024"
+path = "lib.rs"
+
+[[bench]]
+name = "y2024"
+harness = false
+path = "bench.rs"
+
+[dependencies]
+criterion = "0.5.1"
+divan = "0.1.16"
